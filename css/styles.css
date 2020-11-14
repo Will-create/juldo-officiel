@@ -23,7 +23,7 @@ body {
 }
 body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
-    background-color: #1F2AF8;
+    
     color: white;
     webkit-tap-highlight-color: #222;
 }
@@ -82,6 +82,53 @@ p {
     color:#1F2AF8;
     background-color: #fff;
 }
+.bg-one{
+    width: 100%;
+    background-color: transparent;
+    background-image: url('../assets/Page\ communication\ site-1.jpg');
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 0!important;
+}
+.services-group{
+    display: flex;
+    width: 100%;
+     padding-right: 4em;
+    padding-left: 4em;
+    justify-content: space-between;
+    height: 25%!important;   
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.services-juldo{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+   text-transform: uppercase;
+   font-size: x-large;
+   font-weight: 900;
+   font-family: Verdana;
+   text-align: center;
+   
+
+}
+.services-juldo i{
+    font-size: xx-large;
+    background-color: #1F2AF8;
+    color: whitesmoke!important;
+    border-radius: 100%;
+    width: 3em;
+    height:3em;
+    padding: .5em;
+    padding-top: 1em;
+    margin: 1em;
+    text-align: center;
+    
+ }
 
 .cursive {
     font-family: 'Dancing Script', cursive;
@@ -157,14 +204,43 @@ footer {
     border-color: transparent;
 
 }
+.navbar-default .navbar-toggle, .navbar-default .navbar-collapse {
+    border-color: transparent;
+
+}
 
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
-    text-transform: uppercase;
-    font-size: 13px;
+ 
+    font-size: 16px;
     font-weight: 700;
     color: #eee;
 }
+.logo-texte1{
+width: 10em;
+border:0.2em solid #1F2AF8;
+border-radius: 0 10px 10px 0;
+border-left: none;
+padding: .2em;
+margin-top: 1em;
+margin-left: 6px;
+font-size:x-large;
+font-style: italic;
+font-weight: 900;
+
+}
+.logo-texte2{
+   
+    
+    padding: .2em;
+  
+    color: grey;
+  
+    font-size:15px;
+    font-style: italic;
+    font-weight: 900;
+    
+    }
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
@@ -190,18 +266,18 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+  
     transition: all .4s;
    
     
 }
 .left-box{
-    margin-top: 6rem;
+    margin-top: 4rem;
     height: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     transition: all .4s;
 
 }
@@ -249,6 +325,8 @@ transition: all .4s;
     font-size: 1.5em;
     background: transparent;
     transition: all .4s;
+    color: #1F2AF8;
+    
 
 }
 
@@ -264,14 +342,17 @@ transition: all .4s;
     height: auto;
     width: auto;
     padding: .2em;
-    font-size: 2em;
+    font-size: 1.5em;
     border-radius: 15px;
     font-style: italic;
     font-weight: 600;
     border: unset;
     margin: 10px;
+    margin-left: unset;
     transition: all .4s;
     transition: ease;
+    opacity: 0.9;
+    text-decoration: none;
 
 }
 
@@ -299,7 +380,9 @@ transition: all .4s;
     background-color: #1F2AF8;
     transition: ease;
     transition: all .4s;
+    text-decoration: none;
 }
+
     
 
 .bouton1:hover{
@@ -308,6 +391,7 @@ transition: all .4s;
     border: 2px solid #1F2AF8;
     transition: ease;
     transition: background-color ease 1s;
+    text-decoration: none;
 
 
     
@@ -323,17 +407,16 @@ transition: all .4s;
     transition: all .4s;
 }
 .icone-ru{
-    position:relative!important;
-    left: 100%!important;
-    text-align: center!important;
-    padding: 4px!important;
-    padding-bottom: 5px!important;
-    padding-left: 10px!important;
-    padding-right: 10px!important;
-    height: 2px!important;
-    font-size: 22px!important;
-    width: 35px!important;
-    transition: all .4s;
+   
+    
+   position: relative;
+   top:5px;
+    padding-left: 10px;
+   
+    font-size: 35px;
+    width: 45px;
+    cursor: pointer;
+  
 }
 
 
@@ -371,9 +454,9 @@ transition: all .4s;
     }
 
     .navbar-default.affix {
-        border-color: #1F2AF8;
+      
         background-color: whitesmoke;
-        min-height: 100px;
+        min-height: 80px;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
@@ -424,7 +507,7 @@ header { /*tout l'espace contenant la carte au font*/
 header .header-content { 
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding-top: 60vh;
     text-align: center;
     z-index: 2;
 }
@@ -444,8 +527,8 @@ header .header-content .inner p{
 
 .header-content{
     display: flex;
-    justify-content: center;
-    align-items: center;
+   
+ 
     height: 100%;
     background-color: rgba(0, 0, 0, 0.04);
 }
@@ -477,7 +560,7 @@ footer {
     .navbar-default {
         border-color: transparent;
         background-color:transparent;
-        min-height: 110px;
+        min-height: 90px;
     }
     .icon-lg {
         font-size: 80px;
@@ -490,7 +573,7 @@ footer {
     header .header-content {
         position: absolute;
         top: 50%;
-        padding: 0 50px;
+        padding: 150px 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -720,6 +803,10 @@ img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
+.right-relative{
+    position: relative!important;
+    bottom:30%;
+}
 
 .btn-menu {
     display: flex;
@@ -769,23 +856,78 @@ animation: download-effect .5s ease-in-out;
 }
 
 .logo{
-height: 100px;
-width:150px;
+height: 10em;
+width:15em;
 
 
 position: relative;
 bottom: 1em;
 
 }
+.right-one{
+
+    height: auto!important;
+    position: relative;
+    bottom: 30%;
+
+    
+}
+
+
+   .recherche-group{
+    float: right;
+    padding-right: .5em;
+    position: relative;
+    bottom: 55px;
+}
+.navbar-default.affix {
+      
+    background-color: whitesmoke;
+    max-height: auto;
+}
+
+
+.grey-row{
+    width: 100%;
+    height: 15vh;
+    background-color: grey;
+}
+
+
+
+
+
 @media(max-width:780px) {
+
+    .services-group{
+        display: flex;
+        flex-direction: column;
+    } .recherche-group{
+       display: none;
+    }
+    .logo-texte1{
+        display: none;
+
+    }
+    .logo-texte2{
+        display: none;
+        
+    }
+    .logo{
+        position: relative;
+        padding-top: 4px;
+        left:-40px;
+        width: 85px;
+        height: 55px;
+    }
     .header-content{
-   
+        padding-top: 6rem!important;
       display: flex;
       flex-direction: column;
       height: auto!important;
     }
     .head-box{
-       height: 80vh;
+    height: auto!important;
        width: 100%;
        display: flex;
        flex-direction: column;
@@ -801,30 +943,51 @@ bottom: 1em;
        #date{
            display: none;
        }
+       .left-box{
+        
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        transition: all .4s;
+        width: 100%;
+
+}
+
       
        .left-one{
-       order: 2;
+       order: 1;
+
      
        }
        .right-one{
-           order:1;
-           height: auto!important;
+           order:2;
+           
        }
        .right{
            padding-top: 15px!important;
        }
        .navbar-default {
            border:unset;
-           background-color:transparent;
-           min-height: 90px;
+           background-color:whitesmoke;
+           min-height: auto;
        }
        .navbar-default.affix {
-           border-bottom: solid #1F2AF8;
+           
            border-color: #1F2AF8;
            background-color: whitesmoke;
-           min-height: 100px;
+           min-height: auto;
        }
        .boutons-group{
-           flex-direction: column;
+           display: flex;
+           flex-direction: column!important;
+           margin: 5px;
+           align-items: center!important;
+           justify-content: center!important;
+
+       }
+       .slogant{
+           padding-bottom: 10px;
        }
    }
