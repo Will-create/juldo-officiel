@@ -31,7 +31,7 @@ body {
 hr {
     max-width: 80px;
     border-width: 3px;
-    opacity: 0.09;
+   
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -317,7 +317,7 @@ transition: all .4s;
 .recherche{
     height: 3.5rem;
     padding: .5em;
-    margin-top: 2em;
+    margin-top: 1.6em;
     border: 3px solid #1F2AF8;
     border-radius: 0 0 0 15px;
     border-color: #1F2AF8;
@@ -352,7 +352,6 @@ transition: all .4s;
     transition: all .4s;
     transition: ease;
     opacity: 0.9;
-    text-decoration: none;
 
 }
 
