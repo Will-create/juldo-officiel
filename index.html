@@ -5,80 +5,56 @@
     <title>Acceuille </title>
     <meta name="description" content="This is a free Bootstrap landing page theme created for BootstrapZero. Feature video background and one page design." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content="Codeply">
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css" >
     <link rel="stylesheet" href="./css/animate.min.css" />
     <link rel="stylesheet" href="./css/ionicons.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
-    <nav id="topNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed blanchir" data-toggle="collapse" data-target="#bs-navbar">
-                    <span class="sr-only">Decouvrir Juldo Services</span>
-                    <span class="icon-bar blanchir"></span>
-                    <span class="icon-bar blanchir"></span>
-                    <span class="icon-bar blanchir"></span>
-                </button>
-               
-                <div class="ligne">
-                <div class="col-sm-4">
-
-                    <a class="navbar-brand page-scroll" href="#first"><img class="logo" src="assets/logo.png" alt="logo de l'entreprise Juldo service"></a>
-               
-                </div>
-                <div class="col-sm-6">
-                <div class="logo-texte1 coloration">Juldo Services</div>
-                <div class="logo-texte2">
-                    <span class="coloration">A</span>gence de 
-                    <span class="coloration">C</span>ommunication 
-                    <span class="coloration">D</span>igitale
-                
-                </div>
-                
-                    
-                </div>
-
-                </div>
-            </div>
-            <div class="navbar-collapse collapse" id="bs-navbar">
-				
-                   
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="btn-menu">
-                        <div class="bar-bleu"></div>
-                        <a class="page-scroll coloration" href="#one">Acceuil</a>
-                    </li>
-                    <li class="btn-menu"> 
-                        <div class="bar-bleu"></div>
-                        <a class="page-scroll coloration" href="#two">Services</a>
-                    </li>
-                    <li class="btn-menu">
-                        <div class="bar-bleu"></div>
-                        <a class="page-scroll coloration" href="#three">Vitrine</a>
-                    </li>
-                    <li class="btn-menu">
-                        <div class="bar-bleu"></div>
-                        <a class="page-scroll coloration" href="#four">Tarifs</a>
-                    </li>
-                    
-                     <li class="btn-menu">
-                        <div class="bar-bleu"></div>
-                        <a class="page-scroll coloration" data-toggle="modal" title="Tout ce que vous voulez savoir sur Juldo Service" href="#aboutModal">A propos</a>
-                    </li>
+    <nav class="navbar navbar-default navbar-fixed-top">            
+        <div class="container">
+                <a class="navbar" href="#first"><img class="logo" src="assets/logo.png" alt="logo de l'entreprise Juldo service">
+                    <div class="col-sm-6">
+                        <div class="logo-texte1 coloration">Juldo Services</div>
+                        <div class="logo-texte2">
+                            <span class="coloration">A</span>gence de 
+                            <span class="coloration">C</span>ommunication 
+                            <span class="coloration">D</span>igitale
+                        
+                        </div>
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
-                
-            </div>
-            
-            
-                <form class="recherche-group" action="">
-                     <input class="recherche" type="search" placeholder="Rechercher"> <i class="icon-lg ion-ios-search icone-recherche"> </i><span class="coloration icone-ru"> <i class="fa fa-bookmark"></i></span>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
-            
-         
+            </div>
         </div>
     </nav>
 
